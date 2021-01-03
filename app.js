@@ -21,7 +21,7 @@ const bodyParser = require("body-parser");
 const mysql = require("mysql"); 
 const { resolveSoa } = require('dns');
 
-//criando a seção
+//criando a sessão
 app.use(session({secret: "ssshhhhh"}));
 
 //definindo pasta pública para acesso
@@ -163,11 +163,11 @@ app.post('/update', function (req, res){
     //conexão com banco de dados
     var con = conectiondb();
     //query de execução
-    var query = 'UPDATE users SET email = ?, pass = ?, idade = ? WHERE username LIKE ?';
+    var query = 'UPDATE users SET username = ?, pass = ?, idade = ? WHERE email LIKE ?';
     
 
     //execução da query
-    con.query(query, [email, pass, idade, username], function (err, results){
+    con.query(query, [username, pass, idade, req.session.user], function (err, results){
         
         var query2 = 'SELECT * FROM users WHERE email LIKE ?';
         con.query(query2, [req.session.user], function (err, results){
