@@ -43,7 +43,7 @@ npm install ejs -save
 ```
 
 <h2> Páginas </h2>
-
+<img src=/public/images/img_index.png">
 
 <h2> Contato </h2>
 
