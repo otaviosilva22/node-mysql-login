@@ -1,0 +1,92 @@
+/*Cores utilizadas
+
+#87CEFA; Azul claro
+
+*/
+
+/*formatação body*/
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    /*background-color: #87CEFA;*/
+    background-color: white;
+}
+
+/*formatacao página index*/
+
+.titulo1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 40px;
+}
+
+.texto1{
+    font-size: 20px;
+    color: 	#D3D3D3;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 20px; 
+    border-radius: 10pt;
+}
+
+.titulo2{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#4682B4;
+}
+
+.form_cadastro{
+    margin-top: 50px;
+}
+
+
+#contato img{
+    width: 30px;
+    height: auto;
+    margin: 5px;
+}
+
+label{
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 768px){
+
+    .bem-vindo{
+        height: 100%;
+    }
+
+    .titulo2{
+        margin-top: 10%;
+    }
+
+    .form_cadastro{
+        width: 50%;
+        position: relative;
+        left: 25%;
+    }
+
+    footer{
+        display: none;
+    }
+
+    /*Formatação tela login*/
+    .form_login{
+        width: 30%;
+        left: 35%;
+        position: relative;
+    }
+
+}
+
