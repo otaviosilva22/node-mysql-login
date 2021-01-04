@@ -6,7 +6,7 @@ Este repositório faz referência à uma simples aplicação de login desenvolvi
 - [Node.js](https://nodejs.org/en/)
 - [MySQL](https://www.mysql.com/)
 - [Bootstrap](https://getbootstrap.com/)
-- [JavaScript](https://www.javascript.com/)
+- [jQuery](https://jquery.com/)
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
