@@ -1,4 +1,4 @@
-# Sistema de login com Node.JS e MySQL
+# Sistema de Login com Node.js e MySQL
 Este repositório faz referência à uma simples aplicação de login desenvolvida com Node.js em conjunto com o banco de dados MySQL. Para o front-end utilizou-se o framework Bootstrap.
 
 <h2> Tecnologias Utilizadas </h2>
