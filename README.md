@@ -28,19 +28,6 @@ CREATE TABLE users(
 
 );
 ```
-<h2> Comandos NPM </h2>
-
-Os seguintes pacotes foram instalados utilizando o NPM:
-
-```
-npm init
-npm instal nodemon -g 
-npm install -- save express
-npm install express-session
-npm install --save body-parser
-npm install --save mysql
-npm install ejs -save
-```
 
 <h2> Páginas </h2>
 <img src="public/images/img_index.png">
